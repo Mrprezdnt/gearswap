@@ -1,0 +1,19 @@
+function run_keybinds()
+	send_command('bind f10 gs c C7') --PDT--
+	send_command('bind ^f10 gs c C3') --Evasion--
+	send_command('bind f11 gs c C15') --MDT--
+	send_command('bind f12 gs c C1') --ACC Level--
+	send_command('bind f9 gs c C2') --Hybrid Toggle--
+	send_command('bind ^f12 gs c C6') --Idle Toggle--
+	send_command('bind !f12 gs c C4') --Capa Mantle--
+	
+	send_command('bind %x input //send Deadmau /follow Mrpresident')		--Lockstyle--
+	send_command('bind [ gs c DBsend9')
+	send_command('bind ] gs c DBsend0')
+end
+
+-- Pld DBcast spells
+--	DBspellArray = {"Provoke","Flash","Distract","Frazzle","Refresh","Haste","","","Cursna","Cure IV"}
+
+-- Run keybind function to initiate
+	run_keybinds()
